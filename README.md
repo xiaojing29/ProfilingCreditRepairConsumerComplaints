@@ -77,40 +77,12 @@ See the `results/` folder for:
 - 4-class task: Difficulty distinguishing between adjacent knowledge levels
 - Confusion matrices reveal systematic misclassifications across classes
 
-## Repository Structure
-
-CreditReportProfiling/
-│
-├── data/ # Official manually annotated data (2-class and 4-class)
-│ ├── Complaints-official-2-classes.xlsx
-│ └── Complaints-official-4-classes.xlsx
-│
-├── notebooks/ # All experiments and feature extraction done in Jupyter notebooks
-│ ├── BERT+LR_MLPClassifier.ipynb
-│ ├── BERT_ONLY.ipynb
-│ ├── complaints_BERT+LR.ipynb
-│ ├── complaints_BERT.ipynb
-│ ├── Domain_terms.ipynb
-│ ├── plots.ipynb
-│ ├── STSB+LR_MLPClassifier.ipynb
-│ ├── STSB + SVM.ipynb
-│ └── STSB-BERT.ipynb
-│
-├── results/ # Evaluation plots and confusion matrices
-│ ├── accuracy_4_class.png
-│ ├── accuracy_binary.png
-│ ├── confusion_matrix_4_class.png
-│ └── confusion_matrix_binary.png
-│
-├── Project Report.pdf # Final project report with background, methods, and results
-└── README.md # This file
-
 ## Run the Notebooks
 
 Launch jupyter notebook
 
 ## References
 
-Bansal et al. (2019), Fu et al. (2022), Villa-Cueva et al. (2023)
-CFPB Consumer Complaints Database
-Hugging Face Transformers, scikit-learn
+- Bansal et al. (2019), Fu et al. (2022), Villa-Cueva et al. (2023)
+- CFPB Consumer Complaints Database
+- Hugging Face Transformers, scikit-learn
